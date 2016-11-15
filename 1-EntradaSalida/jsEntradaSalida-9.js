@@ -5,5 +5,13 @@ en el cuadro de texto "RESULTADO".*/
 function MostrarAumento()
 {
 
+	//id="numeroDividendo
+	//id="numeroDivisor"
+	var importe;
 	
+	importe=document.getElementById('sueldo').value;
+	importe=parseInt(importe);
+	importe=importe*1.10
+
+	document.getElementById('resultado').value=importe;
 }
