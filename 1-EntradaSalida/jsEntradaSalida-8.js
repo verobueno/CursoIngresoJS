@@ -7,16 +7,18 @@ function SacarResto()
 
 	//id="numeroDividendo
 	//id="numeroDivisor"
-	var num1;
-	var num2;
-	//var resta;
+	var dividendo;
+	var divisor;
+	
 
-	num1=document.getElementById('numeroDividendo').value;
-	num2=document.getElementById('numeroDivisor').value;
+	dividendo=document.getElementById('numeroDividendo').value;
+	divisor=document.getElementById('numeroDivisor').value;
 
-	num1=parseInt(num1);
-	num2=parseInt(num2);
+	dividendo=parseInt(dividendo);
+	divisor=parseInt(divisor);
 
-	alert("El resto es  "+(num1%num2));
+	alert("El resto es  "+(dividendo%divisor));
 	
 }
+//funcion modulo, veo si un nro es divisible por otro
+// parseInt no es necesario

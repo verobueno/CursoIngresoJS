@@ -19,7 +19,13 @@ function sumar()
 
 	//suma=num1+num1
 	// alert("La suma es: "+ (num1+num2));
-	alert("La suma es: "+ (num1+num2));
+	alert("La suma es: "+ (num1+num2)); 
+	//otra opcion
+	//defino la variable, parseo y sumo cada nro
+	//var suma = parseInt(num1)+parseInt(num2);
+
+ // otra opcion
+ //alert( "la suma es: "  +( parseInt(document.getElementById('numeroUno').value) + parseInt(document.getElementById('numeroDos').value) ));
 }
 
 function restar()
@@ -34,8 +40,8 @@ function restar()
 	num1=document.getElementById('numeroUno').value;
 	num2=document.getElementById('numeroDos').value;
 
-	num1=parseInt(num1);
-	num2=parseInt(num2);
+	//num1=parseInt(num1);
+	//num2=parseInt(num2);
 
 	//resta=num1-num2;
 
@@ -57,8 +63,8 @@ function multiplicar()
 	num1=document.getElementById('numeroUno').value;
 	num2=document.getElementById('numeroDos').value;
 
-	num1=parseInt(num1);
-	num2=parseInt(num2);
+	//num1=parseInt(num1);
+	//num2=parseInt(num2);
 
 	multiplicar=num1*num2;
 
@@ -78,8 +84,8 @@ function dividir()
 	num1=document.getElementById('numeroUno').value;
 	num2=document.getElementById('numeroDos').value;
 
-	num1=parseInt(num1);
-	num2=parseInt(num2);
+	//num1=parseInt(num1);
+	//num2=parseInt(num2);
 
 	dividir=num1/num2;
 
@@ -87,3 +93,6 @@ function dividir()
 	
 }
 
+//parseInt solo sirve para la SUMA!!!!!!!!
+// otra opción --
+//alert( "la suma es: "+parseInt(document.getElementById('numeroUno').value)+parseInt(document.getElementById('numeroDos').value));
